@@ -1,0 +1,40 @@
+C:\Users\HOME\Documents\Visual Studio 2010\Projects\daily\daily\obj\x86\Release\daily.csprojResolveAssemblyReference.cache
+C:\Users\HOME\Documents\Visual Studio 2010\Projects\daily\daily\obj\x86\Release\daily.Congno.resources
+C:\Users\HOME\Documents\Visual Studio 2010\Projects\daily\daily\obj\x86\Release\daily.Daily.resources
+C:\Users\HOME\Documents\Visual Studio 2010\Projects\daily\daily\obj\x86\Release\daily.Dangnhap.resources
+C:\Users\HOME\Documents\Visual Studio 2010\Projects\daily\daily\obj\x86\Release\daily.Doanhso.resources
+C:\Users\HOME\Documents\Visual Studio 2010\Projects\daily\daily\obj\x86\Release\daily.Home.resources
+C:\Users\HOME\Documents\Visual Studio 2010\Projects\daily\daily\obj\x86\Release\_008.Thutien.resources
+C:\Users\HOME\Documents\Visual Studio 2010\Projects\daily\daily\obj\x86\Release\daily.Xuathang.resources
+C:\Users\HOME\Documents\Visual Studio 2010\Projects\daily\daily\obj\x86\Release\daily.Properties.Resources.resources
+C:\Users\HOME\Documents\Visual Studio 2010\Projects\daily\daily\obj\x86\Release\daily.csproj.GenerateResource.Cache
+C:\Users\HOME\Documents\Visual Studio 2010\Projects\daily\daily\bin\Release\daily.exe
+C:\Users\HOME\Documents\Visual Studio 2010\Projects\daily\daily\bin\Release\daily.pdb
+C:\Users\HOME\Documents\Visual Studio 2010\Projects\daily\daily\obj\x86\Release\daily.exe
+C:\Users\HOME\Documents\Visual Studio 2010\Projects\daily\daily\obj\x86\Release\daily.pdb
+C:\Users\HOME\Documents\Visual Studio 2010\Projects\daily\daily\obj\x86\Release\daily.TraCuuDaiLy.resources
+C:\Users\HOME\Documents\Visual Studio 2010\Projects\daily\daily\obj\x86\Release\daily.TiepNhanDaiLy.resources
+C:\Users\HOME\Documents\Visual Studio 2010\Projects\daily\daily\obj\x86\Release\daily.XoaDaiLy.resources
+C:\Users\HOME\Documents\Visual Studio 2010\Projects\daily\daily\obj\x86\Release\daily.SuaDaiLy.resources
+C:\Users\HOME\Documents\Visual Studio 2010\Projects\daily\daily\obj\x86\Release\daily.TuyChinhDuLieu.resources
+C:\Users\HOME\Documents\Visual Studio 2010\Projects\daily\daily\obj\x86\Release\daily.PhieuThuTien.resources
+E:\#Dai Hoc\Drive_HK4\HocKy2\CNPM\HoangMinh_cnpm\daily\daily\obj\x86\Release\daily.exe
+E:\#Dai Hoc\Drive_HK4\HocKy2\CNPM\HoangMinh_cnpm\daily\daily\obj\x86\Release\daily.pdb
+E:\#Dai Hoc\Drive_HK4\HocKy2\CNPM\HoangMinh_cnpm\daily\daily\bin\Release\daily.exe
+E:\#Dai Hoc\Drive_HK4\HocKy2\CNPM\HoangMinh_cnpm\daily\daily\bin\Release\daily.pdb
+E:\#Dai Hoc\Drive_HK4\HocKy2\CNPM\HoangMinh_cnpm\daily\daily\obj\x86\Release\daily.csprojResolveAssemblyReference.cache
+E:\#Dai Hoc\Drive_HK4\HocKy2\CNPM\HoangMinh_cnpm\daily\daily\obj\x86\Release\daily.Congno.resources
+E:\#Dai Hoc\Drive_HK4\HocKy2\CNPM\HoangMinh_cnpm\daily\daily\obj\x86\Release\daily.Daily.resources
+E:\#Dai Hoc\Drive_HK4\HocKy2\CNPM\HoangMinh_cnpm\daily\daily\obj\x86\Release\daily.Dangnhap.resources
+E:\#Dai Hoc\Drive_HK4\HocKy2\CNPM\HoangMinh_cnpm\daily\daily\obj\x86\Release\daily.Doanhso.resources
+E:\#Dai Hoc\Drive_HK4\HocKy2\CNPM\HoangMinh_cnpm\daily\daily\obj\x86\Release\daily.Home.resources
+E:\#Dai Hoc\Drive_HK4\HocKy2\CNPM\HoangMinh_cnpm\daily\daily\obj\x86\Release\daily.PhieuThuTien.resources
+E:\#Dai Hoc\Drive_HK4\HocKy2\CNPM\HoangMinh_cnpm\daily\daily\obj\x86\Release\daily.SuaDaiLy.resources
+E:\#Dai Hoc\Drive_HK4\HocKy2\CNPM\HoangMinh_cnpm\daily\daily\obj\x86\Release\_008.Thutien.resources
+E:\#Dai Hoc\Drive_HK4\HocKy2\CNPM\HoangMinh_cnpm\daily\daily\obj\x86\Release\daily.TiepNhanDaiLy.resources
+E:\#Dai Hoc\Drive_HK4\HocKy2\CNPM\HoangMinh_cnpm\daily\daily\obj\x86\Release\daily.TraCuuDaiLy.resources
+E:\#Dai Hoc\Drive_HK4\HocKy2\CNPM\HoangMinh_cnpm\daily\daily\obj\x86\Release\daily.TuyChinhDuLieu.resources
+E:\#Dai Hoc\Drive_HK4\HocKy2\CNPM\HoangMinh_cnpm\daily\daily\obj\x86\Release\daily.XoaDaiLy.resources
+E:\#Dai Hoc\Drive_HK4\HocKy2\CNPM\HoangMinh_cnpm\daily\daily\obj\x86\Release\daily.Xuathang.resources
+E:\#Dai Hoc\Drive_HK4\HocKy2\CNPM\HoangMinh_cnpm\daily\daily\obj\x86\Release\daily.Properties.Resources.resources
+E:\#Dai Hoc\Drive_HK4\HocKy2\CNPM\HoangMinh_cnpm\daily\daily\obj\x86\Release\daily.csproj.GenerateResource.Cache
