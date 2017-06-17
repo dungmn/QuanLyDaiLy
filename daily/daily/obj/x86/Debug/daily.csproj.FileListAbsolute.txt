@@ -11,3 +11,18 @@ C:\Users\HOME\AppData\Local\Temporary Projects\daily\obj\x86\Debug\daily.exe
 C:\Users\HOME\AppData\Local\Temporary Projects\daily\obj\x86\Debug\daily.pdb
 C:\Users\HOME\Documents\Visual Studio 2010\Projects\daily\daily\obj\x86\Debug\daily.exe
 C:\Users\HOME\Documents\Visual Studio 2010\Projects\daily\daily\obj\x86\Debug\daily.pdb
+C:\Users\Admin\Desktop\DOANCNPM\daily\daily\obj\x86\Debug\daily.exe
+C:\Users\Admin\Desktop\DOANCNPM\daily\daily\obj\x86\Debug\daily.pdb
+C:\Users\Admin\Desktop\DOANCNPM\daily\daily\obj\x86\Debug\daily.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Desktop\DOANCNPM\daily\daily\obj\x86\Debug\daily.Congno.resources
+C:\Users\Admin\Desktop\DOANCNPM\daily\daily\obj\x86\Debug\daily.Daily.resources
+C:\Users\Admin\Desktop\DOANCNPM\daily\daily\obj\x86\Debug\daily.Dangnhap.resources
+C:\Users\Admin\Desktop\DOANCNPM\daily\daily\obj\x86\Debug\daily.Doanhso.resources
+C:\Users\Admin\Desktop\DOANCNPM\daily\daily\obj\x86\Debug\daily.Home.resources
+C:\Users\Admin\Desktop\DOANCNPM\daily\daily\obj\x86\Debug\daily.TuyChinhDuLieu.resources
+C:\Users\Admin\Desktop\DOANCNPM\daily\daily\obj\x86\Debug\daily.Properties.Resources.resources
+C:\Users\Admin\Desktop\DOANCNPM\daily\daily\obj\x86\Debug\daily.csproj.GenerateResource.Cache
+C:\Users\Admin\Desktop\DOANCNPM\daily\daily\bin\Debug\daily.exe
+C:\Users\Admin\Desktop\DOANCNPM\daily\daily\bin\Debug\daily.pdb
+C:\Users\Admin\Desktop\DOANCNPM\daily\daily\obj\x86\Debug\daily.Xuathang.resources
+C:\Users\Admin\Desktop\DOANCNPM\daily\daily\obj\x86\Debug\daily.Thutien.resources

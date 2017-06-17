@@ -29,58 +29,48 @@ namespace daily
         private void button6_Click(object sender, EventArgs e)
         {
             Daily  dl = new Daily ();
-            dl.Show();
+            dl.ShowDialog();
         }
 
-        private void button10_Click(object sender, EventArgs e)
-        {
-            TiepNhanDaiLy dl = new TiepNhanDaiLy();
-            dl.Show();
-        }
+       
+       
 
-        private void button9_Click(object sender, EventArgs e)
-        {
-
-           XoaDaiLy dl = new XoaDaiLy();
-            dl.Show();
-        }
-
-        private void button8_Click(object sender, EventArgs e)
-        {
-
-            SuaDaiLy dl = new SuaDaiLy();
-            dl.Show();
-        }
+        
 
         private void button7_Click(object sender, EventArgs e)
         {
             Xuathang  dl = new Xuathang();
-            dl.Show();
+            dl.ShowDialog();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            PhieuThuTien  dl = new PhieuThuTien ();
-            dl.Show();
+            Thutien dl = new Thutien();
+            dl.ShowDialog();
      
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
             Doanhso dl = new Doanhso();
-            dl.Show();
+            dl.ShowDialog();
         }
 
         private void button5_Click(object sender, EventArgs e)
         {
             Congno  dl = new Congno();
-            dl.Show();
+            dl.ShowDialog();
         }
 
         private void button14_Click(object sender, EventArgs e)
         {
             TuyChinhDuLieu  dl = new TuyChinhDuLieu ();
             dl.Show();
+        }
+
+        private void Home_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

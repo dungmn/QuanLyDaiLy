@@ -36,18 +36,11 @@ namespace daily
         
         public void LoadData()
         {
-            SqlConnection ketnoi = new SqlConnection();
-            ketnoi.ConnectionString = @"Data Source=TNC-PC\SQLEXPRESS;Initial Catalog=tranguyen;Integrated Security=True";
-            ketnoi.Open();
-            SqlCommand command = new SqlCommand("LietKeDaiLy", ketnoi);
-            command.CommandType = CommandType.StoredProcedure;
-            command.ExecuteNonQuery();
-            SqlDataAdapter adapter = new SqlDataAdapter();
-            adapter.SelectCommand = command;
+            
             DataTable dt = new DataTable();
-            adapter.Fill(dt);
+            dt = DataProvider.Instance.ExecuteQuery("select * from DaiLy");
             dataGridView1.DataSource = dt;
-            ketnoi.Close();
+         
         }
 
         private void Daily_Load(object sender, EventArgs e)
@@ -118,117 +111,59 @@ namespace daily
             }
         }
 
-        private void button1_Click(object sender, EventArgs e)
+
+
+
+       
+
+        private void button2_Click(object sender, EventArgs e)
         {
-            SqlConnection ketnoi = new SqlConnection();
-            ketnoi.ConnectionString = @"Data Source=TNC-PC\SQLEXPRESS;Initial Catalog=tranguyen;Integrated Security=True";
-            ketnoi.Open();
-            SqlCommand command = new SqlCommand("ThemDaiLy", ketnoi);
-            command.CommandType = CommandType.StoredProcedure;
+            string key = "%" + txtSearch.Text + "%";
+            DataTable dt = new DataTable();
+            dt = DataProvider.Instance.ExecuteQuery("USP_SEARCH @KEY", new object[] {key });
+            dataGridView1.DataSource = dt;
+        }
 
-
-            SqlParameter p = new SqlParameter("@MaDaiLy", txtMaDaiLy.Text);
-            command.Parameters.Add(p);
-            p = new SqlParameter("@TenDaiLy", txtTenDaiLy.Text);
-            command.Parameters.Add(p);
-            p = new SqlParameter("@MaLoaiDaiLy", txtMaLoaiDaiLy.Text);
-            command.Parameters.Add(p);
-            p = new SqlParameter("@DienThoai", txtDienThoai.Text);
-            command.Parameters.Add(p);
-            p = new SqlParameter("@DiaChi", txtDiaChi.Text);
-            command.Parameters.Add(p);
-            p = new SqlParameter("@MaQuan", txtMaQuan.Text);
-            command.Parameters.Add(p);
-            p = new SqlParameter("@NgayTiepNhan", txtNgayTiepNhan.Text);
-            command.Parameters.Add(p);
-            p = new SqlParameter("@Email", txtEmail.Text);
-            command.Parameters.Add(p);
-            p = new SqlParameter("@TienNo", txtTienNo.Text);
-            command.Parameters.Add(p);
-
-            int count = command.ExecuteNonQuery();
-
-            if (count > 0)
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            int temp = DataProvider.Instance.ExecuteNonQuery("ThemDaiLy @MaDaiLy , @TenDaiLy , @MaLoaiDaiLy , @DienThoai , @DiaChi , @MaQuan , @NgayTiepNhan , @Email , @TienNo",new object[] {txtMaDaiLy.Text,txtTenDaiLy.Text, txtMaLoaiDaiLy.Text,txtDienThoai.Text, txtDiaChi.Text, txtMaQuan.Text,txtNgayTiepNhan.Text, txtEmail.Text,txtTienNo.Text });
+            if (temp > 0)
             {
-                MessageBox.Show("Them thanh cong");
+                MessageBox.Show("Thêm vào một đại lý thành công.");
                 LoadData();
             }
-            ketnoi.Close();
-
-
-
-            
+            else
+            {
+                MessageBox.Show("Thêm thất bại.(Có thể đã trùng mã đại lý)");
+            }
         }
 
-        private void button3_Click(object sender, EventArgs e)
+        private void button3_Click_1(object sender, EventArgs e)
         {
-            SqlConnection ketnoi = new SqlConnection();
-            ketnoi.ConnectionString = @"Data Source=TNC-PC\SQLEXPRESS;Initial Catalog=tranguyen;Integrated Security=True";
-            ketnoi.Open();
-            SqlCommand command = new SqlCommand("XoaDaiLy", ketnoi);
-            command.CommandType = CommandType.StoredProcedure;
-
-            
-            SqlParameter p = new SqlParameter("@MaDaiLy",txtMaDaiLy.Text);
-            command.Parameters.Add(p);
-            int count = command.ExecuteNonQuery();
-
-            if (count > 0)
+            int temp = DataProvider.Instance.ExecuteNonQuery("USP_XOADAILY @MaDaiLy", new object[] { txtMaDaiLy.Text });
+            if (temp > 0)
             {
-                MessageBox.Show("Xoa thanh cong");
+                MessageBox.Show("Xóa đại lý thành công.");
                 LoadData();
             }
-            ketnoi.Close();
-             
-
+            else
+            {
+                MessageBox.Show("Xóa thất bại");
+            }
         }
 
-        private void button4_Click(object sender, EventArgs e)
+        private void button4_Click_1(object sender, EventArgs e)
         {
-            SqlConnection ketnoi = new SqlConnection();
-            ketnoi.ConnectionString = @"Data Source=TNC-PC\SQLEXPRESS;Initial Catalog=tranguyen;Integrated Security=True";
-            ketnoi.Open();
-            SqlCommand command = new SqlCommand("SuaDaiLy", ketnoi);
-            command.CommandType = CommandType.StoredProcedure;
-
-
-            SqlParameter p = new SqlParameter("@MaDaiLy", txtMaDaiLy.Text);
-            command.Parameters.Add(p);
-            p = new SqlParameter("@TenDaiLy", txtTenDaiLy.Text);
-            command.Parameters.Add(p);
-            p = new SqlParameter("@MaLoaiDaiLy", txtMaLoaiDaiLy.Text);
-            command.Parameters.Add(p);
-            p = new SqlParameter("@DienThoai", txtDienThoai.Text);
-            command.Parameters.Add(p);
-            p = new SqlParameter("@DiaChi", txtDiaChi.Text);
-            command.Parameters.Add(p);
-            p = new SqlParameter("@MaQuan", txtMaQuan.Text);
-            command.Parameters.Add(p);
-            p = new SqlParameter("@NgayTiepNhan", txtNgayTiepNhan.Text);
-            command.Parameters.Add(p);
-            p = new SqlParameter("@Email", txtEmail.Text);
-            command.Parameters.Add(p);
-            p = new SqlParameter("@TienNo", txtTienNo.Text);
-            command.Parameters.Add(p);
-
-            int count = command.ExecuteNonQuery();
-
-            if (count > 0)
+            int temp = DataProvider.Instance.ExecuteNonQuery("USP_SUADAILY @MaDaiLy , @TenDaiLy , @MaLoaiDaiLy , @DienThoai , @DiaChi , @MaQuan , @NgayTiepNhan , @Email , @TienNo", new object[] { txtMaDaiLy.Text, txtTenDaiLy.Text, txtMaLoaiDaiLy.Text, txtDienThoai.Text, txtDiaChi.Text, txtMaQuan.Text, txtNgayTiepNhan.Text, txtEmail.Text, txtTienNo.Text });
+            if (temp > 0)
             {
-                MessageBox.Show("Sua thanh cong");
+                MessageBox.Show("Sửa đại lý thành công.");
                 LoadData();
             }
-            ketnoi.Close();
+            else
+            {
+                MessageBox.Show("Sửa thất bại");
+            }
         }
-
-        private void label10_Click(object sender, EventArgs e)
-        {
-
-        }
-
-      
-
-      
-        
     }
 }

@@ -38,3 +38,37 @@ E:\#Dai Hoc\Drive_HK4\HocKy2\CNPM\HoangMinh_cnpm\daily\daily\obj\x86\Release\dai
 E:\#Dai Hoc\Drive_HK4\HocKy2\CNPM\HoangMinh_cnpm\daily\daily\obj\x86\Release\daily.Xuathang.resources
 E:\#Dai Hoc\Drive_HK4\HocKy2\CNPM\HoangMinh_cnpm\daily\daily\obj\x86\Release\daily.Properties.Resources.resources
 E:\#Dai Hoc\Drive_HK4\HocKy2\CNPM\HoangMinh_cnpm\daily\daily\obj\x86\Release\daily.csproj.GenerateResource.Cache
+C:\Users\minhd\Desktop\New folder\daily\daily\obj\x86\Release\daily.exe
+C:\Users\minhd\Desktop\New folder\daily\daily\obj\x86\Release\daily.pdb
+C:\Users\minhd\Desktop\New folder\daily\daily\bin\Release\daily.exe
+C:\Users\minhd\Desktop\New folder\daily\daily\bin\Release\daily.pdb
+C:\Users\minhd\Desktop\New folder\daily\daily\obj\x86\Release\daily.csprojResolveAssemblyReference.cache
+C:\Users\minhd\Desktop\New folder\daily\daily\obj\x86\Release\daily.Congno.resources
+C:\Users\minhd\Desktop\New folder\daily\daily\obj\x86\Release\daily.Daily.resources
+C:\Users\minhd\Desktop\New folder\daily\daily\obj\x86\Release\daily.Dangnhap.resources
+C:\Users\minhd\Desktop\New folder\daily\daily\obj\x86\Release\daily.Doanhso.resources
+C:\Users\minhd\Desktop\New folder\daily\daily\obj\x86\Release\daily.Home.resources
+C:\Users\minhd\Desktop\New folder\daily\daily\obj\x86\Release\daily.PhieuThuTien.resources
+C:\Users\minhd\Desktop\New folder\daily\daily\obj\x86\Release\daily.SuaDaiLy.resources
+C:\Users\minhd\Desktop\New folder\daily\daily\obj\x86\Release\_008.Thutien.resources
+C:\Users\minhd\Desktop\New folder\daily\daily\obj\x86\Release\daily.TiepNhanDaiLy.resources
+C:\Users\minhd\Desktop\New folder\daily\daily\obj\x86\Release\daily.TraCuuDaiLy.resources
+C:\Users\minhd\Desktop\New folder\daily\daily\obj\x86\Release\daily.TuyChinhDuLieu.resources
+C:\Users\minhd\Desktop\New folder\daily\daily\obj\x86\Release\daily.XoaDaiLy.resources
+C:\Users\minhd\Desktop\New folder\daily\daily\obj\x86\Release\daily.Properties.Resources.resources
+C:\Users\minhd\Desktop\New folder\daily\daily\obj\x86\Release\daily.csproj.GenerateResource.Cache
+C:\Users\Admin\Desktop\DOANCNPM\daily\daily\obj\x86\Release\daily.exe
+C:\Users\Admin\Desktop\DOANCNPM\daily\daily\obj\x86\Release\daily.pdb
+C:\Users\Admin\Desktop\DOANCNPM\daily\daily\bin\Release\daily.exe
+C:\Users\Admin\Desktop\DOANCNPM\daily\daily\bin\Release\daily.pdb
+C:\Users\Admin\Desktop\DOANCNPM\daily\daily\obj\x86\Release\daily.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Desktop\DOANCNPM\daily\daily\obj\x86\Release\daily.Congno.resources
+C:\Users\Admin\Desktop\DOANCNPM\daily\daily\obj\x86\Release\daily.Daily.resources
+C:\Users\Admin\Desktop\DOANCNPM\daily\daily\obj\x86\Release\daily.Dangnhap.resources
+C:\Users\Admin\Desktop\DOANCNPM\daily\daily\obj\x86\Release\daily.Doanhso.resources
+C:\Users\Admin\Desktop\DOANCNPM\daily\daily\obj\x86\Release\daily.Home.resources
+C:\Users\Admin\Desktop\DOANCNPM\daily\daily\obj\x86\Release\daily.Thutien.resources
+C:\Users\Admin\Desktop\DOANCNPM\daily\daily\obj\x86\Release\daily.TuyChinhDuLieu.resources
+C:\Users\Admin\Desktop\DOANCNPM\daily\daily\obj\x86\Release\daily.Properties.Resources.resources
+C:\Users\Admin\Desktop\DOANCNPM\daily\daily\obj\x86\Release\daily.Xuathang.resources
+C:\Users\Admin\Desktop\DOANCNPM\daily\daily\obj\x86\Release\daily.csproj.GenerateResource.Cache

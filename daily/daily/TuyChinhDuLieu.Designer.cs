@@ -30,18 +30,20 @@
         {
             this.label9 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.txtMaLoaiDaiLy = new System.Windows.Forms.TextBox();
-            this.txtMaDaiLy = new System.Windows.Forms.TextBox();
+            this.txtMaQuan = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.btnSLDL = new System.Windows.Forms.Button();
+            this.btnSLDVT = new System.Windows.Forms.Button();
+            this.btnSLMH = new System.Windows.Forms.Button();
+            this.btnSoDaiLy = new System.Windows.Forms.Button();
+            this.txtSLDVT = new System.Windows.Forms.TextBox();
+            this.txtSoDaiLy = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
-            this.txtDienThoai = new System.Windows.Forms.TextBox();
-            this.txtTenDaiLy = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
+            this.txtSLDL = new System.Windows.Forms.TextBox();
+            this.txtSLMH = new System.Windows.Forms.TextBox();
             this.button5 = new System.Windows.Forms.Button();
             this.panel3.SuspendLayout();
             this.SuspendLayout();
@@ -59,36 +61,103 @@
             // panel3
             // 
             this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel3.Controls.Add(this.button4);
-            this.panel3.Controls.Add(this.button3);
-            this.panel3.Controls.Add(this.button2);
-            this.panel3.Controls.Add(this.button1);
-            this.panel3.Controls.Add(this.txtMaLoaiDaiLy);
-            this.panel3.Controls.Add(this.txtMaDaiLy);
+            this.panel3.Controls.Add(this.txtMaQuan);
+            this.panel3.Controls.Add(this.label1);
+            this.panel3.Controls.Add(this.btnSLDL);
+            this.panel3.Controls.Add(this.btnSLDVT);
+            this.panel3.Controls.Add(this.btnSLMH);
+            this.panel3.Controls.Add(this.btnSoDaiLy);
+            this.panel3.Controls.Add(this.txtSLDVT);
+            this.panel3.Controls.Add(this.txtSoDaiLy);
             this.panel3.Controls.Add(this.label8);
             this.panel3.Controls.Add(this.label3);
             this.panel3.Controls.Add(this.label2);
             this.panel3.Controls.Add(this.label10);
-            this.panel3.Controls.Add(this.txtDienThoai);
-            this.panel3.Controls.Add(this.txtTenDaiLy);
+            this.panel3.Controls.Add(this.txtSLDL);
+            this.panel3.Controls.Add(this.txtSLMH);
             this.panel3.Location = new System.Drawing.Point(16, 36);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(404, 128);
             this.panel3.TabIndex = 16;
             // 
-            // txtMaLoaiDaiLy
+            // txtMaQuan
             // 
-            this.txtMaLoaiDaiLy.Location = new System.Drawing.Point(175, 58);
-            this.txtMaLoaiDaiLy.Name = "txtMaLoaiDaiLy";
-            this.txtMaLoaiDaiLy.Size = new System.Drawing.Size(100, 20);
-            this.txtMaLoaiDaiLy.TabIndex = 2;
+            this.txtMaQuan.Location = new System.Drawing.Point(211, 4);
+            this.txtMaQuan.Name = "txtMaQuan";
+            this.txtMaQuan.Size = new System.Drawing.Size(64, 20);
+            this.txtMaQuan.TabIndex = 23;
             // 
-            // txtMaDaiLy
+            // label1
             // 
-            this.txtMaDaiLy.Location = new System.Drawing.Point(175, 5);
-            this.txtMaDaiLy.Name = "txtMaDaiLy";
-            this.txtMaDaiLy.Size = new System.Drawing.Size(100, 20);
-            this.txtMaDaiLy.TabIndex = 0;
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(180, 8);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(33, 13);
+            this.label1.TabIndex = 22;
+            this.label1.Text = "Quận";
+            // 
+            // btnSLDL
+            // 
+            this.btnSLDL.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSLDL.ForeColor = System.Drawing.Color.Blue;
+            this.btnSLDL.Location = new System.Drawing.Point(309, 83);
+            this.btnSLDL.Name = "btnSLDL";
+            this.btnSLDL.Size = new System.Drawing.Size(75, 23);
+            this.btnSLDL.TabIndex = 21;
+            this.btnSLDL.Text = "SỬA";
+            this.btnSLDL.UseVisualStyleBackColor = true;
+            this.btnSLDL.Click += new System.EventHandler(this.btnSLDL_Click);
+            // 
+            // btnSLDVT
+            // 
+            this.btnSLDVT.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSLDVT.ForeColor = System.Drawing.Color.Blue;
+            this.btnSLDVT.Location = new System.Drawing.Point(309, 57);
+            this.btnSLDVT.Name = "btnSLDVT";
+            this.btnSLDVT.Size = new System.Drawing.Size(75, 23);
+            this.btnSLDVT.TabIndex = 20;
+            this.btnSLDVT.Text = "SỬA";
+            this.btnSLDVT.UseVisualStyleBackColor = true;
+            this.btnSLDVT.Click += new System.EventHandler(this.btnSLDVT_Click);
+            // 
+            // btnSLMH
+            // 
+            this.btnSLMH.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSLMH.ForeColor = System.Drawing.Color.Blue;
+            this.btnSLMH.Location = new System.Drawing.Point(309, 31);
+            this.btnSLMH.Name = "btnSLMH";
+            this.btnSLMH.Size = new System.Drawing.Size(75, 23);
+            this.btnSLMH.TabIndex = 19;
+            this.btnSLMH.Text = "SỬA";
+            this.btnSLMH.UseVisualStyleBackColor = true;
+            this.btnSLMH.Click += new System.EventHandler(this.btnSLMH_Click);
+            // 
+            // btnSoDaiLy
+            // 
+            this.btnSoDaiLy.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSoDaiLy.ForeColor = System.Drawing.Color.Blue;
+            this.btnSoDaiLy.Location = new System.Drawing.Point(309, 4);
+            this.btnSoDaiLy.Name = "btnSoDaiLy";
+            this.btnSoDaiLy.Size = new System.Drawing.Size(75, 23);
+            this.btnSoDaiLy.TabIndex = 18;
+            this.btnSoDaiLy.Text = "SỬA";
+            this.btnSoDaiLy.UseVisualStyleBackColor = true;
+            this.btnSoDaiLy.Click += new System.EventHandler(this.btnSoDaiLy_Click);
+            // 
+            // txtSLDVT
+            // 
+            this.txtSLDVT.Location = new System.Drawing.Point(175, 58);
+            this.txtSLDVT.Name = "txtSLDVT";
+            this.txtSLDVT.Size = new System.Drawing.Size(100, 20);
+            this.txtSLDVT.TabIndex = 2;
+            // 
+            // txtSoDaiLy
+            // 
+            this.txtSoDaiLy.Location = new System.Drawing.Point(110, 5);
+            this.txtSoDaiLy.Name = "txtSoDaiLy";
+            this.txtSoDaiLy.Size = new System.Drawing.Size(64, 20);
+            this.txtSoDaiLy.TabIndex = 0;
+            this.txtSoDaiLy.TextChanged += new System.EventHandler(this.txtMaDaiLy_TextChanged);
             // 
             // label8
             // 
@@ -127,63 +196,19 @@
             this.label10.Text = "Số Lượng Mặt Hàng:";
             this.label10.Click += new System.EventHandler(this.label10_Click);
             // 
-            // txtDienThoai
+            // txtSLDL
             // 
-            this.txtDienThoai.Location = new System.Drawing.Point(175, 84);
-            this.txtDienThoai.Name = "txtDienThoai";
-            this.txtDienThoai.Size = new System.Drawing.Size(100, 20);
-            this.txtDienThoai.TabIndex = 2;
+            this.txtSLDL.Location = new System.Drawing.Point(175, 84);
+            this.txtSLDL.Name = "txtSLDL";
+            this.txtSLDL.Size = new System.Drawing.Size(100, 20);
+            this.txtSLDL.TabIndex = 2;
             // 
-            // txtTenDaiLy
+            // txtSLMH
             // 
-            this.txtTenDaiLy.Location = new System.Drawing.Point(175, 32);
-            this.txtTenDaiLy.Name = "txtTenDaiLy";
-            this.txtTenDaiLy.Size = new System.Drawing.Size(100, 20);
-            this.txtTenDaiLy.TabIndex = 1;
-            // 
-            // button1
-            // 
-            this.button1.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.Blue;
-            this.button1.Location = new System.Drawing.Point(309, 4);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 18;
-            this.button1.Text = "SỬA";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
-            // button2
-            // 
-            this.button2.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.Color.Blue;
-            this.button2.Location = new System.Drawing.Point(309, 31);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 19;
-            this.button2.Text = "SỬA";
-            this.button2.UseVisualStyleBackColor = true;
-            // 
-            // button3
-            // 
-            this.button3.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.ForeColor = System.Drawing.Color.Blue;
-            this.button3.Location = new System.Drawing.Point(309, 57);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 23);
-            this.button3.TabIndex = 20;
-            this.button3.Text = "SỬA";
-            this.button3.UseVisualStyleBackColor = true;
-            // 
-            // button4
-            // 
-            this.button4.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.ForeColor = System.Drawing.Color.Blue;
-            this.button4.Location = new System.Drawing.Point(309, 83);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(75, 23);
-            this.button4.TabIndex = 21;
-            this.button4.Text = "SỬA";
-            this.button4.UseVisualStyleBackColor = true;
+            this.txtSLMH.Location = new System.Drawing.Point(175, 32);
+            this.txtSLMH.Name = "txtSLMH";
+            this.txtSLMH.Size = new System.Drawing.Size(100, 20);
+            this.txtSLMH.TabIndex = 1;
             // 
             // button5
             // 
@@ -193,8 +218,9 @@
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(95, 28);
             this.button5.TabIndex = 17;
-            this.button5.Text = "XONG";
+            this.button5.Text = "Quay về";
             this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // TuyChinhDuLieu
             // 
@@ -205,7 +231,9 @@
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.label9);
             this.Name = "TuyChinhDuLieu";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "TuyChinhDuLieu";
+            this.Load += new System.EventHandler(this.TuyChinhDuLieu_Load);
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
             this.ResumeLayout(false);
@@ -217,18 +245,20 @@
 
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.TextBox txtMaLoaiDaiLy;
-        private System.Windows.Forms.TextBox txtMaDaiLy;
+        private System.Windows.Forms.TextBox txtSLDVT;
+        private System.Windows.Forms.TextBox txtSoDaiLy;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.TextBox txtDienThoai;
-        private System.Windows.Forms.TextBox txtTenDaiLy;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.TextBox txtSLDL;
+        private System.Windows.Forms.TextBox txtSLMH;
+        private System.Windows.Forms.Button btnSoDaiLy;
+        private System.Windows.Forms.Button btnSLDL;
+        private System.Windows.Forms.Button btnSLDVT;
+        private System.Windows.Forms.Button btnSLMH;
         private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.TextBox txtMaQuan;
+        private System.Windows.Forms.Label label1;
     }
 }
